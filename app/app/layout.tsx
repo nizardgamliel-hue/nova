@@ -1,9 +1,0 @@
-import "@/app/globals.css";
-export const metadata = { title: "Nova", description: "AI Business OS" };
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="fr">
-      <body>{children}</body>
-    </html>
-  );
-}
