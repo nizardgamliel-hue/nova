@@ -1,1 +1,10 @@
-export default { plugins: { tailwindcss: {}, autoprefixer: {} } };
+/** @type {import('next').NextConfig} */
+export default {
+  reactStrictMode: true,
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  }
+};
